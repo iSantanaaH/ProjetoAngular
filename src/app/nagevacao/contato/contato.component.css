@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: 1s;  
+}
+
+h4 {
+    color: red;
+    font-family: Arial;
+    padding: 50px;
+    text-align: center;
+}
+
+body {
+    content: "";
+    background-image: url('./image/frase.jpeg');
+    background-position: center 90%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}

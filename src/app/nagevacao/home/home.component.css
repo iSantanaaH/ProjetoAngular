@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+
+.divcontent h1,p {    
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+    color:  red;
+}
+
+body::before {
+    content: "";
+    background-image: url('./images/cidade.jpeg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 90%;
+    z-index: -1;  
+}
